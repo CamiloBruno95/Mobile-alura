@@ -2,7 +2,7 @@ hr {
     margin: 0;
 }
 
-.rodape {
+.rodapé {
     background-color: var(--branco);
     padding: 1em;
 }
@@ -34,4 +34,17 @@ hr {
     .rodapé__titulo {
         font-size: 26px;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+
+    }
+    .rodapé {
+        padding: 3em 0;
+
+    }
+
 }
